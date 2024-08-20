@@ -138,7 +138,7 @@ author:
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=7AwTJLQAAAAJ"
     - label: "Youtube"
-      icon: "fas fa-fw fa-youtube-play"
+      icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@dyros_kwlee"
 
 # Site Footer
