@@ -116,7 +116,7 @@ author:
   name             : "Kwanwoo Lee (이관우)"
   avatar           : "kwan.png"
   bio              : "Ph.D. Candidate at SNU"
-  location         : "Gwanak, Seoul, KOR"
+  # location         : "Gwanak, Seoul, KOR"
   # email            : kwlee365@snu.ac.kr
   links:
     - label: "Email"
