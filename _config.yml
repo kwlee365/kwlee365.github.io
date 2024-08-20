@@ -117,7 +117,6 @@ author:
   avatar           : "kwan.png"
   bio              : "Ph.D. Candidate at SNU"
   location         : "Gwanak, Seoul, KOR"
-  googlescholar    : https://scholar.google.com/citations?user=7AwTJLQAAAAJ&hl=ko
   email            : kwlee365@snu.ac.kr
   links:
     # - label: "Email"
@@ -132,12 +131,15 @@ author:
     # - label: "Facebook"
       # icon: "fab fa-fw fa-facebook-square"
     #   # url: "https://facebook.com/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/kwlee365"
-    # - label: "Instagram"
-      # icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kwlee365"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-mortar-board"
+      url: "https://scholar.google.com/citations?hl=en&user=7AwTJLQAAAAJ"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      URL: "https://www.youtube.com/@dyros_kwlee"
 
 # Site Footer
 footer:
