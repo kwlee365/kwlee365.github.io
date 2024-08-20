@@ -120,7 +120,7 @@ author:
   # email            : kwlee365@snu.ac.kr
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "kwlee365@snu.ac.kr"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -135,10 +135,10 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kwlee365"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-graduation-cap"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=7AwTJLQAAAAJ"
     - label: "Youtube"
-      icon: "fab fa-fw fa-youtube-play"
+      icon: "fas fa-fw fa-youtube-play"
       url: "https://www.youtube.com/@dyros_kwlee"
 
 # Site Footer
