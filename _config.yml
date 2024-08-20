@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -116,12 +116,13 @@ author:
   name             : "Kwanwoo Lee (이관우)"
   avatar           : "kwan.png"
   bio              : "Ph.D. Candidate at SNU"
-  location         : "Seoul, KOR"
-  email            : "kwlee365@snu.ac.kr"
+  location         : "Gwanak, Seoul, KOR"
+  googlescholar    : https://scholar.google.com/citations?user=7AwTJLQAAAAJ&hl=ko
+  email            : kwlee365@snu.ac.kr
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "kwlee365@snu.ac.kr"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "kwlee365@snu.ac.kr"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "https://your-website.com"
@@ -130,10 +131,10 @@ author:
       # url: "https://twitter.com/"
     # - label: "Facebook"
       # icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/kwlee365"
+    #   # url: "https://facebook.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/kwlee365"
     # - label: "Instagram"
       # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
