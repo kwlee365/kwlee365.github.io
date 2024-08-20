@@ -117,11 +117,11 @@ author:
   avatar           : "kwan.png"
   bio              : "Ph.D. Candidate at SNU"
   location         : "Gwanak, Seoul, KOR"
-  email            : kwlee365@snu.ac.kr
+  # email            : kwlee365@snu.ac.kr
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: "kwlee365@snu.ac.kr"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "kwlee365@snu.ac.kr"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "https://your-website.com"
