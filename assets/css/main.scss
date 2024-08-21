@@ -7,8 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-.site-author-avatar img {
-  width: 150px; /* 원하는 크기로 조정 */
-  height: auto; /* 비율을 유지하려면 auto 설정 */
-}
