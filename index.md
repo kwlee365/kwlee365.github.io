@@ -1,25 +1,27 @@
 ---
-layout: home
-title: Kwan's Blog
+layout: single
+title: About me
 author_profile: true
-header:
-  overlay_image: /assets/images/kwan.jpg
-  overlay_filter: 0.55
-excerpt: Robotics, humanoids, and control.
 ---
 
-Hi, I am Kwan.
+I am Kwan, and this page is my public notebook for robotics, humanoids, and control.
 
-This site is my public notebook for robotics, humanoids, and control, with project updates, research notes, and short writing pieces.
+I use this site to organize project updates, short technical notes, and research progress in one place.
 
-Use the menu above to browse the archive or learn more about me.
+## News
 
-## What you will find here
+- [2026/04] Updated homepage layout to a cleaner profile-first style.
+- [2026/04] Added project website section for SafeWBC.
+- [2026/03] Reorganized notes and archive pages.
 
-- Project notes and experiments
-- Research summaries and technical writing
-- Personal updates worth keeping public
+## Research interests
 
-## Current focus
+- Humanoid robotics
+- Whole-body control
+- Safe control and learning-based control
 
-Building useful systems, keeping the notes clean, and turning work into something easy to revisit later.
+## About this site
+
+This website is built with Jekyll and hosted on GitHub Pages.
+
+Use the top menu to browse publications, study notes, blog posts, and CV updates.
