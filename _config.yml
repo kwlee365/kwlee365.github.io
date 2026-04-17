@@ -20,26 +20,41 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kwlee365.github.io"
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: kwlee365
 
 # Build settings
-remote_theme: samarsault/plainwhite-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
 
-plainwhite:
+author:
   name: Kwan
-  tagline: Robotics / Humanoids / Control
-  portfolio_image: assets/images/kwan.jpg
-  date_format: "%Y-%m-%d"
-  dark_mode: true
+  avatar: /assets/images/kwan.jpg
+  bio: Robotics, humanoids, and control. Notes, projects, and writing in one place.
+  location: Seoul, Korea
+  email: kwlee365@snu.ac.kr
+  links:
+    - label: GitHub
+      icon: fa-brands fa-github
+      url: https://github.com/kwlee365
+    - label: Email
+      icon: fa-solid fa-envelope
+      url: mailto:kwlee365@snu.ac.kr
 
-  social_links:
-    github: kwlee365
+minimal_mistakes_skin: sunrise
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: true
+      layout: single
+      sidebar:
+        nav: "main"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
