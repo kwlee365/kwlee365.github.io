@@ -75,18 +75,11 @@ real-world robot deployment.
   {%- endfor %}
 </ul>
 
-<h1>Technical skills</h1>
-
-<ul class="skills">
-  {%- for s in site.data.skills %}
-  <li><span class="k">{{ s.k }}</span>{{ s.v }}</li>
-  {%- endfor %}
-</ul>
-
 <h1>Contact</h1>
 
 <p>
-Email <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> —
+Email <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> (SNU)
+or <a href="mailto:{{ site.author.email_alt }}">{{ site.author.email_alt }}</a> (KIST) —
 happy to talk about humanoid control, motion retargeting, or safe RL.
 A full CV is available on request.
 </p>

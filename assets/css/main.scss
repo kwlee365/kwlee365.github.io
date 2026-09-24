@@ -377,12 +377,6 @@ a.pill { transition: all 0.2s ease; }
 a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 .pill.plain { background: transparent; border-color: var(--rule); color: var(--text-muted); font-weight: 400; }
 
-/* ---------- Skills ---------- */
-.skills { list-style: none; padding: 0; margin: 0; }
-.skills li { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.9rem; }
-.skills li:last-child { border-bottom: 0; }
-.skills .k { font-weight: 700; color: var(--text); margin-right: 0.35rem; }
-
 /* ---------- Notes list ---------- */
 .note-list { list-style: none; padding: 0; margin: 0; }
 .note-list li { padding: 0.8rem 0; border-bottom: 1px solid var(--rule); }

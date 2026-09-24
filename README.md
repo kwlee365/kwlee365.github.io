@@ -18,7 +18,6 @@ Almost nothing is hard-coded in HTML. Edit the YAML in `_data/` and the pages re
 | `_data/interests.yml` | Research interests on the About page |
 | `_data/education.yml` | Education timeline |
 | `_data/teaching.yml` | Teaching timeline |
-| `_data/skills.yml` | Technical skills |
 | `_data/publications.yml` | Publications page (grouped by `year:`, wrap your own name in `**...**`) |
 | `_data/projects.yml` | Projects page |
 | `_data/navigation.yml` | Top nav |
