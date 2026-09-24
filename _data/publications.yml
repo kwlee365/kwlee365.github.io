@@ -1,6 +1,9 @@
 # Mirrors the Google Scholar profile (7AwTJLQAAAAJ).
-# Grouped on /publications/ by `type` first, then by `year`.
-# type: Journal | Conference | Preprint
+# Grouped on /publications/ by `type`, then by `year`.
+#   type:  Journal | Conference | Preprint
+#   url:   what the title links to (DOI where one exists)
+#   links: extra buttons
+#   video: YouTube id — embeds a click-to-play player in the card
 
 # ----- Journal -----------------------------------------------------------
 - title: >-
@@ -10,9 +13,12 @@
   venue: "International Journal of Control, Automation and Systems (IJCAS), to appear"
   year: 2026
   type: Journal
+  url: "https://arxiv.org/abs/2605.25546"
   links:
     - text: arXiv
-      url: https://arxiv.org/abs/2605.25546
+      url: "https://arxiv.org/abs/2605.25546"
+  video: "CL3e6qg7Mxk"
+  video_start: 1
 
 - title: >-
     A Model Predictive Capture Point Control Framework for Robust Humanoid Balancing
@@ -21,6 +27,10 @@
   venue: "IEEE Transactions on Robotics, vol. 41, pp. 3297–3316"
   year: 2025
   type: Journal
+  url: "https://doi.org/10.1109/TRO.2025.3567546"
+  links:
+    - text: DOI
+      url: "https://doi.org/10.1109/TRO.2025.3567546"
 
 - title: >-
     Real-Time Whole-Body Model Predictive Control for Versatile 3D Bipedal Locomotion
@@ -29,6 +39,10 @@
   venue: "IEEE Access"
   year: 2025
   type: Journal
+  url: "https://doi.org/10.1109/ACCESS.2025.3602063"
+  links:
+    - text: DOI
+      url: "https://doi.org/10.1109/ACCESS.2025.3602063"
 
 - title: "Advances in Humanoid Robot Walking Technologies: A Review"
   authors: >-
@@ -36,6 +50,10 @@
   venue: "Journal of Institute of Control, Robotics and Systems, vol. 30, no. 4, pp. 412–422"
   year: 2024
   type: Journal
+  url: "https://doi.org/10.5302/J.ICROS.2024.24.0042"
+  links:
+    - text: DOI
+      url: "https://doi.org/10.5302/J.ICROS.2024.24.0042"
 
 - title: >-
     Performance Evaluation of Robotic Physics Engine for Mobile Manipulator Simulation
@@ -43,6 +61,10 @@
   venue: "The Journal of Korea Robotics Society, vol. 19, no. 1, pp. 31–38"
   year: 2024
   type: Journal
+  url: "https://doi.org/10.7746/jkros.2024.19.1.031"
+  links:
+    - text: DOI
+      url: "https://doi.org/10.7746/jkros.2024.19.1.031"
 
 # ----- Conference --------------------------------------------------------
 - title: >-
@@ -54,6 +76,10 @@
     to appear
   year: 2026
   type: Conference
+  url: "https://dyros.snu.ac.kr/wp-content/uploads/2026/08/IROS26_gyeongjaePARK.pdf"
+  links:
+    - text: PDF
+      url: "https://dyros.snu.ac.kr/wp-content/uploads/2026/08/IROS26_gyeongjaePARK.pdf"
 
 - title: >-
     Humanoid Walking Stabilization via Model Predictive Control with Step Adjustment
@@ -63,6 +89,10 @@
     IEEE International Conference on Robotics and Automation (ICRA), pp. 14707–14713
   year: 2025
   type: Conference
+  url: "https://doi.org/10.1109/ICRA55743.2025.11128625"
+  links:
+    - text: DOI
+      url: "https://doi.org/10.1109/ICRA55743.2025.11128625"
 
 - title: >-
     Balance Control of Humanoid Robots Using Control Barrier Functions for
@@ -72,6 +102,10 @@
     Institute of Control, Robotics and Systems (ICROS) Annual Conference, pp. 259–260
   year: 2025
   type: Conference
+  url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12313277"
+  links:
+    - text: DBpia
+      url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12313277"
 
 # ----- Preprint ----------------------------------------------------------
 - title: >-
@@ -81,6 +115,8 @@
   venue: "arXiv preprint arXiv:2506.03856"
   year: 2025
   type: Preprint
+  url: "https://arxiv.org/abs/2506.03856"
   links:
     - text: arXiv
-      url: https://arxiv.org/abs/2506.03856
+      url: "https://arxiv.org/abs/2506.03856"
+  video: "8drBIHnn3zg"

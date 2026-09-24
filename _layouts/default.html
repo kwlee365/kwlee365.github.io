@@ -7,5 +7,28 @@
       {{ content }}
     </main>
     {%- include footer.html -%}
+    <script>
+      // Swap a video thumbnail for the real player on click or Enter/Space.
+      function playVideo(el) {
+        if (!el || el.dataset.loaded) return;
+        el.dataset.loaded = '1';
+        var src = 'https://www.youtube-nocookie.com/embed/' + el.dataset.yt +
+                  '?autoplay=1&rel=0&start=' + (el.dataset.start || 0);
+        var f = document.createElement('iframe');
+        f.src = src;
+        f.title = el.getAttribute('aria-label') || 'Video';
+        f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+        f.allowFullscreen = true;
+        el.replaceChildren(f);
+      }
+      document.addEventListener('click', function (e) {
+        if (e.target.closest) playVideo(e.target.closest('.video'));
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Enter' && e.key !== ' ') return;
+        var el = e.target.closest && e.target.closest('.video');
+        if (el) { e.preventDefault(); playVideo(el); }
+      });
+    </script>
   </body>
 </html>
