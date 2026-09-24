@@ -394,8 +394,8 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
 /* ---------- Click-to-play video ---------- */
 /* A thumbnail stands in for the player until it is clicked, so visiting the
    page does not pull in YouTube's iframe (or its cookies) for every paper. */
-/* Players keep a generous fixed width and the row scrolls sideways rather
-   than shrinking them; a lone player just fills the card instead. */
+/* Every player is the same fixed size; the row scrolls sideways rather than
+   shrinking them to fit. */
 .video-row {
   display: flex;
   gap: 0.9rem;
@@ -412,8 +412,6 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
 .video-row::-webkit-scrollbar-track { background: var(--bg-soft); border-radius: 5px; }
 .video-row::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 5px; }
 .video-row::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
-/* nothing overflows when there is only one player, so hide the empty track */
-.video-row:has(> .video:only-child) { overflow-x: visible; padding-bottom: 0; }
 
 .video {
   position: relative;
@@ -435,7 +433,6 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
   transition: opacity 0.2s ease;
 }
 .video:hover img { opacity: 0.82; }
-.video-row > .video:only-child { width: 100%; max-width: 760px; }
 .video iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 .video-play {

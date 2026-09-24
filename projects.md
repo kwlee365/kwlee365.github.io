@@ -13,7 +13,7 @@ permalink: /projects/
       <span class="entry-when">{{ p.when }}</span>
     </div>
     {%- if p.title_ko %}<p class="card-sub">{{ p.title_ko }}</p>{% endif %}
-    <p class="card-sub"><i class="fas fa-building-columns"></i> {{ p.funder }}</p>
+    {%- if p.funder %}<p class="card-sub"><i class="fas fa-building-columns"></i> {{ p.funder }}</p>{% endif %}
     <ul>
       {%- for i in p.items %}<li>{{ i }}</li>{% endfor %}
     </ul>
