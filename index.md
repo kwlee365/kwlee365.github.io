@@ -54,24 +54,6 @@ real-world robot deployment.
   {%- endfor %}
 </ul>
 
-<h1>Media</h1>
-
-<ul class="media-list">
-  {%- for m in site.data.media %}
-  <li>
-    <i class="{% if m.kind == 'video' %}fab fa-youtube{% else %}fas fa-newspaper{% endif %} kind"></i>
-    <div>
-      {%- if m.url != "" %}
-      <a href="{{ m.url | escape }}" target="_blank" rel="noopener">{{ m.title }}</a>
-      {%- else %}
-      <span>{{ m.title }}</span>
-      {%- endif %}
-      <div class="outlet">{{ m.outlet }}{% if m.date %} &middot; {{ m.date }}{% endif %}</div>
-    </div>
-  </li>
-  {%- endfor %}
-</ul>
-
 <h1>Education</h1>
 
 <ul class="timeline">
