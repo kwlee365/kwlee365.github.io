@@ -3,7 +3,9 @@
 # Earlier entries are in git history: `git show 4b6d6b4:_data/projects.yml`
 
 - title: >-
-    SNU &amp; <a class="ilink" href="https://www.bluerobin.co.kr/EN/index.php"
+    <a class="ilink" href="https://dyros.snu.ac.kr/" target="_blank"
+    rel="noopener">SNU</a> &amp;
+    <a class="ilink" href="https://www.bluerobin.co.kr/EN/index.php"
     target="_blank" rel="noopener">BlueRobin</a> Custom Humanoid Development
   title_ko: "AI 파운데이션 모델 기반 가정 및 의료 환경 특화 휴머노이드 로봇 개발"
   funder: "Ministry of Trade, Industry and Energy (산업통상자원부)"
