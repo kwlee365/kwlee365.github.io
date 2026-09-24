@@ -300,6 +300,19 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
   padding-top: 0.2rem;
 }
 
+/* ---------- Media ---------- */
+.media-list { list-style: none; padding: 0; margin: 0; }
+.media-list li {
+  display: grid;
+  grid-template-columns: 1.4rem 1fr;
+  gap: 0.6rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.media-list li:last-child { border-bottom: 0; }
+.media-list .kind { color: var(--text-muted); font-size: 0.9rem; padding-top: 0.28rem; }
+.media-list .outlet { color: var(--text-muted); font-size: 0.8rem; margin-top: 0.1rem; }
+
 /* ---------- Timeline (education / teaching) ---------- */
 .timeline { list-style: none; padding: 0; margin: 0; }
 .timeline > li { padding: 0.85rem 0; border-bottom: 1px solid var(--rule); }

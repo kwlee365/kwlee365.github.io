@@ -30,12 +30,10 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-permalink: /notes/:year/:month/:day/:title/
 sass:
   style: compressed
 
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
@@ -47,10 +45,3 @@ exclude:
   - vendor
   - .bundle
   - README.md
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post

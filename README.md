@@ -24,12 +24,10 @@ Almost nothing is hard-coded in HTML. Edit the YAML in `_data/` and the pages re
 | `_data/projects.yml` | Projects page |
 | `_data/navigation.yml` | Top nav |
 | `_data/affiliations.yml` | Lab affiliations on the About page |
+| `_data/media.yml` | Press and broadcast coverage; leave `url: ""` until you have the link |
 | `_config.yml` → `author:` | Sidebar: name, photo, the `meta:` lines under it, social icons |
 
 Prose that isn't a list lives in `index.md` (About).
-
-Blog posts go in `_posts/YYYY-MM-DD-slug.md` and show up under `/notes/`.
-KaTeX is loaded on every page, so `$x$` and `$$...$$` work in posts.
 
 ## Adding a publication
 
