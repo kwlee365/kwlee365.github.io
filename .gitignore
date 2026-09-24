@@ -7,3 +7,5 @@ vendor/
 
 # CV is kept locally only, not published to the repo
 assets/CV_kwlee.pdf
+
+.DS_Store

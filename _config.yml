@@ -13,7 +13,7 @@ lang: en
 author:
   name: Kwanwoo Lee
   name_ko: 이관우
-  avatar: /assets/images/kwlee.jpeg
+  avatar: /assets/images/kwlee.jpg
   badges:
     - Integrated M.S./Ph.D. Student
     - SNU DYROS
@@ -41,7 +41,8 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
-  - assets/CV_kwlee.pdf   # kept locally, never built or published
+  - assets/CV_kwlee.pdf        # kept locally, never built or published
+  - assets/images/kwlee.png    # 3 MB source image; the site uses the cropped kwlee.jpg
   - Gemfile
   - Gemfile.lock
   - vendor

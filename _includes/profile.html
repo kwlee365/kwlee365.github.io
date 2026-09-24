@@ -18,19 +18,19 @@
 
   <ul class="social-icons">
     {%- if site.author.email %}
-    <li><a href="mailto:{{ site.author.email }}" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+    <li><a href="mailto:{{ site.author.email }}" title="Email" aria-label="Email"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></a></li>
     {%- endif %}
     {%- if site.author.github != "" %}
-    <li><a href="https://github.com/{{ site.author.github }}" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+    <li><a href="https://github.com/{{ site.author.github }}" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a></li>
     {%- endif %}
     {%- if site.author.linkedin != "" %}
-    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fab fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
     {%- endif %}
     {%- if site.author.scholar != "" %}
-    <li><a href="{{ site.author.scholar }}" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i></a></li>
+    <li><a href="{{ site.author.scholar }}" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i></span></a></li>
     {%- endif %}
     {%- if site.author.youtube != "" %}
-    <li><a href="{{ site.author.youtube }}" title="YouTube" aria-label="YouTube" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+    <li><a href="{{ site.author.youtube }}" title="YouTube" aria-label="YouTube" target="_blank" rel="noopener"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fab fa-youtube fa-stack-1x fa-inverse"></i></span></a></li>
     {%- endif %}
   </ul>
 </aside>
