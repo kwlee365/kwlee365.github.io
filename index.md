@@ -6,9 +6,9 @@ title: About
 <h1>About me</h1>
 
 <p class="lead">
-I am a <strong>Ph.D. candidate</strong> in the
+I’m a <strong>Ph.D. candidate</strong> in the
 <a href="https://gsai.snu.ac.kr/">Intelligence and Information</a> program at
-<strong>Seoul National University</strong>. I work in the
+<strong>Seoul National University</strong>, affiliated with the
 <a href="https://dyros.snu.ac.kr/">Dynamic Robotic Systems Lab (DYROS)</a> at SNU
 and the
 <a href="https://sites.google.com/view/kist-arc/home/?pli=1&amp;authuser=0">Advanced Robot Control Lab (ARC)</a>
@@ -16,17 +16,9 @@ at KIST.
 </p>
 
 <p>
-My research is about making humanoid robots move <span class="hl">reliably</span> and
-<span class="hl">safely</span> in the real world. I work across the whole stack that this
-requires: model-based whole-body control and model predictive control for locomotion and
-balance, control barrier functions that turn safety requirements into hard constraints, and
-reinforcement learning policies trained on human motion that has been retargeted to be
-kinematically and dynamically feasible on the robot.
-</p>
-
-<p>
-Most of this work ends up running on real hardware — most recently on the humanoid platform
-we demonstrated at <a href="https://www.youtube.com/watch?v=VUrm83OZvyA">CES 2026</a>.
+My research interests include humanoid locomotion and whole-body control,
+safety-critical humanoid control, and reducing the sim-to-real gap for robust
+real-world robot deployment.
 </p>
 
 <h1>Affiliations</h1>
