@@ -394,12 +394,17 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
 /* ---------- Click-to-play video ---------- */
 /* A thumbnail stands in for the player until it is clicked, so visiting the
    page does not pull in YouTube's iframe (or its cookies) for every paper. */
+.video-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 0.9rem;
+}
 .video {
   position: relative;
-  width: 100%;
+  flex: 1 1 250px;
   max-width: 460px;
   aspect-ratio: 16 / 9;
-  margin-top: 0.9rem;
   border: 1px solid var(--rule);
   border-radius: 8px;
   overflow: hidden;

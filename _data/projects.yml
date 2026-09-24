@@ -1,4 +1,4 @@
-# Projects shown on /projects/. `video` embeds a click-to-play player,
+# Projects shown on /projects/. `videos` embeds click-to-play players,
 # the same one the publications page uses.
 # Earlier entries are in git history: `git show 4b6d6b4:_data/projects.yml`
 
@@ -16,4 +16,5 @@
       Implemented humanoid locomotion and manipulation controllers, robot physics
       simulation environments, motor communication modules, and state estimation pipelines.
     - "Participated in the CES 2026 demonstration and technical preparation for humanoid robot deployment."
-  video: "VUrm83OZvyA"
+  videos:
+    - id: "VUrm83OZvyA"

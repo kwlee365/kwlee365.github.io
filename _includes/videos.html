@@ -1,0 +1,13 @@
+{%- comment -%}
+Click-to-play players. Pass `videos` (list of {id, start}) and a `label`.
+Only the thumbnail loads up front; default.html swaps in the iframe on click.
+{%- endcomment -%}
+<div class="video-row">
+  {%- for v in include.videos %}
+  <div class="video" data-yt="{{ v.id }}" data-start="{{ v.start | default: 0 }}"
+       role="button" tabindex="0" aria-label="Play video: {{ include.label | strip | escape }}">
+    <img src="https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg" alt="" loading="lazy" decoding="async">
+    <span class="video-play"><i class="fas fa-play"></i></span>
+  </div>
+  {%- endfor %}
+</div>

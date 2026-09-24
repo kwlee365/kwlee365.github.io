@@ -33,17 +33,13 @@ permalink: /publications/
       {%- for l in pub.links %}
       <a class="pill" href="{{ l.url | escape }}" target="_blank" rel="noopener"><i class="fas fa-link"></i> {{ l.text }}</a>
       {%- endfor %}
-      {%- if pub.video %}
-      <span class="pill plain"><i class="fab fa-youtube"></i> Video below</span>
+      {%- if pub.videos %}
+      <span class="pill plain"><i class="fab fa-youtube"></i> {{ pub.videos.size }} video{% if pub.videos.size > 1 %}s{% endif %} below</span>
       {%- endif %}
     </div>
     {%- endif %}
-    {%- if pub.video %}
-    <div class="video" data-yt="{{ pub.video }}" data-start="{{ pub.video_start | default: 0 }}" role="button" tabindex="0"
-         aria-label="Play the video for {{ pub.title | strip | escape }}">
-      <img src="https://i.ytimg.com/vi/{{ pub.video }}/hqdefault.jpg" alt="" loading="lazy" decoding="async">
-      <span class="video-play"><i class="fas fa-play"></i></span>
-    </div>
+    {%- if pub.videos %}
+    {% include videos.html videos=pub.videos label=pub.title %}
     {%- endif %}
   </li>
   {%- endif -%}

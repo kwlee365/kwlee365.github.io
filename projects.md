@@ -24,12 +24,8 @@ permalink: /projects/
       {%- endfor %}
     </div>
     {%- endif %}
-    {%- if p.video %}
-    <div class="video" data-yt="{{ p.video }}" data-start="{{ p.video_start | default: 0 }}" role="button" tabindex="0"
-         aria-label="Play the demo video for this project">
-      <img src="https://i.ytimg.com/vi/{{ p.video }}/hqdefault.jpg" alt="" loading="lazy" decoding="async">
-      <span class="video-play"><i class="fas fa-play"></i></span>
-    </div>
+    {%- if p.videos %}
+    {% include videos.html videos=p.videos label=p.title_ko %}
     {%- endif %}
   </li>
 {%- endfor %}
