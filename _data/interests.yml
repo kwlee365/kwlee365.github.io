@@ -1,14 +1,18 @@
 - topic: Humanoid Robotics
-  detail: Humanoid locomotion, whole-body control, loco-manipulation
-- topic: Motion Retargeting
-  detail: >-
-    Collision-aware motion retargeting, dynamically feasible motion optimization,
-    human-to-humanoid motion transfer
-  link: https://youtu.be/ruav1TcfNyw
-  link_text: video
+  detail: Humanoid locomotion, whole-body control, and loco-manipulation
+
 - topic: Safety-Critical Control
-  detail: Control barrier functions, constrained reinforcement learning, safe reinforcement learning
+  detail: >-
+    Dynamic obstacle avoidance for locomotion and whole-body control,
+    and learning-based safety-critical humanoid control
+
+- topic: Optimization
+  detail: >-
+    Nonlinear optimization: sequential quadratic programming (SQP),
+    differential dynamic programming (DDP), and model predictive path
+    integral control (MPPI)
+
 - topic: Robot Learning
   detail: >-
     Reinforcement learning for humanoid locomotion, general motion tracking,
-    imitation learning
+    and imitation learning
