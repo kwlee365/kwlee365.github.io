@@ -12,7 +12,6 @@ lang: en
 # --- Profile (used by the sidebar) --------------------------------------
 author:
   name: Kwanwoo Lee
-  name_ko: 이관우
   avatar: /assets/images/kwlee.jpg
   meta:                        # plain lines under the name in the sidebar
     - Ph.D. Student in Robotics
