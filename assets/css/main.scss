@@ -199,23 +199,16 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
   margin-top: 0.15rem;
 }
 
-.profile-badges {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
-  margin: 0.7rem 0 0.9rem;
-}
-.badge {
-  display: inline-block;
-  background: var(--accent-light);
-  color: var(--accent);
+.profile-meta {
   font-family: var(--sans);
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.2rem 0.7rem;
-  border-radius: 20px;
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+  margin: 0.6rem 0 0.9rem;
 }
+/* the role line carries the most weight, the address the least */
+.profile-meta > div:first-child { color: var(--text-body); font-weight: 600; }
+.profile-meta > div:last-child { font-size: 0.78rem; word-break: break-word; }
 
 .cv-btn {
   display: inline-flex;

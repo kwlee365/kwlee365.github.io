@@ -4,9 +4,9 @@
   <div class="profile-name">{{ site.author.name }}</div>
   {%- if site.author.name_ko %}<div class="profile-name-ko">{{ site.author.name_ko }}</div>{% endif -%}
 
-  <div class="profile-badges">
-    {%- for badge in site.author.badges %}
-    <span class="badge">{{ badge }}</span>
+  <div class="profile-meta">
+    {%- for line in site.author.meta %}
+    <div>{{ line }}</div>
     {%- endfor %}
   </div>
 

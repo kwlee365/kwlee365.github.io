@@ -14,10 +14,10 @@ author:
   name: Kwanwoo Lee
   name_ko: 이관우
   avatar: /assets/images/kwlee.jpg
-  badges:
-    - Integrated M.S./Ph.D. Student
-    - SNU DYROS
-    - KIST ARC
+  meta:                        # plain lines under the name in the sidebar
+    - Ph.D. Student in Robotics
+    - Seoul National University
+    - kwlee365 (at) snu.ac.kr
   cv: ""              # CV is not published in this repo; set a URL here to show the button
   email: kwlee365@snu.ac.kr
   github: kwlee365
