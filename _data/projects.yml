@@ -1,0 +1,76 @@
+- title: "Advancement of Core Technologies for AI Humanoids through Public–Private Collaboration"
+  title_ko: "민관협력 기반 AI 휴머노이드 원천기술 고도화"
+  funder: "Ministry of Science and ICT (과학기술정보통신부)"
+  when: "2026"
+  items:
+    - >-
+      Developed a safety-aware command filtering framework for humanoid robots to
+      enable dynamically balanced locomotion and manipulation.
+    - >-
+      Designed motion retargeting methods that map human motion data to humanoid
+      robots while considering kinematic and dynamic feasibility.
+    - >-
+      Used retargeted humanoid motions as high-quality training data for
+      reinforcement learning-based whole-body control policies.
+  links:
+    - text: "Safety-aware filtering demo"
+      url: https://www.youtube.com/watch?v=CL3e6qg7Mxk
+    - text: "Collision-aware motion retargeting"
+      url: https://youtu.be/ruav1TcfNyw
+
+- title: >-
+    Humanoid Robot Development for Home and Medical Environments Based on an
+    AI Foundation Model
+  title_ko: "AI 파운데이션 모델 기반 가정 및 의료 환경 특화 휴머노이드 로봇 개발"
+  funder: "Ministry of Trade, Industry and Energy (산업통상자원부)"
+  when: "2025 – 2026"
+  items:
+    - "Developed RL-based whole-body controllers for BlueRobin's humanoid robot platform."
+    - >-
+      Implemented humanoid locomotion and manipulation controllers, robot physics
+      simulation environments, motor communication modules, and state estimation pipelines.
+    - "Participated in the CES 2026 demonstration and technical preparation for humanoid robot deployment."
+  links:
+    - text: "CES 2026 demo"
+      url: https://www.youtube.com/watch?v=VUrm83OZvyA
+
+- title: >-
+    Localization of a Humanoid AI Robot Foundation Model for Diverse Application Tasks
+  title_ko: "다양한 응용 태스크를 수행할 수 있는 휴머노이드 AI 로봇 파운데이션 모델 국산화"
+  funder: "Ministry of Trade, Industry and Energy (산업통상자원부)"
+  when: "2025 – 2026"
+  items:
+    - "Developed RL-based locomotion controllers for humanoid robots."
+  links:
+    - text: "Demo"
+      url: https://www.youtube.com/watch?v=8Zdxw3Zo_Ds
+
+- title: >-
+    Proprioceptive-Sensor-Based Whole-Body Walking Control and Real-Time Motion Planning
+  title_ko: "내재 센서 기반 전신보행 제어 및 실시간 동작 계획"
+  funder: "Ministry of Science and ICT (과학기술정보통신부)"
+  when: "2022 – 2024"
+  items:
+    - >-
+      Developed a model-based control framework for robust balance stabilization
+      of humanoid robots during walking.
+  links:
+    - text: "Demo"
+      url: https://www.youtube.com/watch?v=8drBIHnn3zg
+
+- title: "Physics Engine Evaluation for Mobile Robot Simulation"
+  title_ko: "모바일 로봇 시뮬레이션을 위한 물리엔진 평가"
+  funder: "Samsung SAIT AMD"
+  when: "2022 – 2023"
+  items:
+    - >-
+      Evaluated physics engines and robot simulators for accurate and efficient
+      mobile robot simulation.
+    - "Published in the Journal of Korea Robotics Society."
+
+- title: "Human Gait Phase Estimation from Upper-Body Motion"
+  title_ko: "상지 움직임 기반 인간 보행주기 추정"
+  funder: "HEXAR Humancare (하이젠알엔씨)"
+  when: "2022 – 2023"
+  items:
+    - "Developed a gait phase estimation method using human upper-body motion."

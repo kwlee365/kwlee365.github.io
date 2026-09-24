@@ -1,0 +1,36 @@
+<aside class="profile">
+  <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+
+  <div class="profile-name">{{ site.author.name }}</div>
+  {%- if site.author.name_ko %}<div class="profile-name-ko">{{ site.author.name_ko }}</div>{% endif -%}
+
+  <div class="profile-badges">
+    {%- for badge in site.author.badges %}
+    <span class="badge">{{ badge }}</span>
+    {%- endfor %}
+  </div>
+
+  {%- if site.author.cv and site.author.cv != "" %}
+  <a class="cv-btn" href="{{ site.author.cv | relative_url }}" target="_blank" rel="noopener">
+    <i class="fas fa-file-pdf"></i> Curriculum Vitae
+  </a>
+  {%- endif %}
+
+  <ul class="social-icons">
+    {%- if site.author.email %}
+    <li><a href="mailto:{{ site.author.email }}" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+    {%- endif %}
+    {%- if site.author.github != "" %}
+    <li><a href="https://github.com/{{ site.author.github }}" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+    {%- endif %}
+    {%- if site.author.linkedin != "" %}
+    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
+    {%- endif %}
+    {%- if site.author.scholar != "" %}
+    <li><a href="{{ site.author.scholar }}" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i></a></li>
+    {%- endif %}
+    {%- if site.author.youtube != "" %}
+    <li><a href="{{ site.author.youtube }}" title="YouTube" aria-label="YouTube" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+    {%- endif %}
+  </ul>
+</aside>

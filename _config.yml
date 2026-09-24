@@ -1,69 +1,56 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Kwan's Blog
-email: kwlee365@snu.ac.kr
-description: >- # this means to ignore newlines until "baseurl:"
-  url: "https://kwlee365.github.io"
-baseurl: "" # the subpath of your site, e.g. /blog
+# --- Site ---------------------------------------------------------------
+title: Kwanwoo Lee
+tagline: Humanoid robotics, whole-body control, and safe control
+description: >-
+  Kwanwoo Lee is an integrated M.S./Ph.D. student at Seoul National University
+  working on humanoid locomotion, whole-body control, motion retargeting,
+  and safety-critical control.
 url: "https://kwlee365.github.io"
-twitter_username: jekyllrb
-github_username: kwlee365
+baseurl: ""
+lang: en
 
-# Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+# --- Profile (used by the sidebar) --------------------------------------
+author:
+  name: Kwanwoo Lee
+  name_ko: 이관우
+  avatar: /assets/images/kwlee.jpeg
+  badges:
+    - Integrated M.S./Ph.D. Student
+    - SNU DYROS
+    - KIST ARC
+  cv: ""              # CV is not published in this repo; set a URL here to show the button
+  email: kwlee365@snu.ac.kr
+  github: kwlee365
+  linkedin: kwanwoo-lee
+  scholar: ""          # add your Google Scholar profile URL when you have one
+  youtube: ""          # add a channel URL if you want the icon shown
 
+# --- Build --------------------------------------------------------------
+theme: null            # no external theme; layouts live in _layouts/
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+permalink: /notes/:year/:month/:day/:title/
+sass:
+  style: compressed
+
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-author:
-  name: Kwan
-  avatar: /assets/images/kwan.jpg
-  bio: Robotics, humanoids, and control. 
-  location: Seoul, Korea
-  email: kwlee365@snu.ac.kr
-  links:
-    - label: GitHub
-      icon: fa-brands fa-github
-      url: https://github.com/kwlee365
-    - label: Email
-      icon: fa-solid fa-envelope
-      url: mailto:kwlee365@snu.ac.kr
-
-minimal_mistakes_skin: sunrise
+exclude:
+  - assets/CV_kwlee.pdf   # kept locally, never built or published
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - README.md
 
 defaults:
   - scope:
       path: ""
+      type: posts
     values:
-      author_profile: true
-      layout: single
-      sidebar:
-        nav: "main"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+      layout: post

@@ -1,0 +1,11 @@
+- role: Head Teaching Assistant
+  org: Seoul National University
+  when: 2025 – 2026
+  items:
+    - "Theory and Practice of Humanoid Walking Control, Spring 2025 — Prof. Jaeheung Park"
+    - "Theory and Practice of Humanoid Walking Control, Spring 2026 — Prof. Jaeheung Park"
+- role: Teaching Assistant
+  org: Seoul National University
+  when: 2022 – 2025
+  items:
+    - "DYROS Robotics Boot Camp I: ROS (Robot Operating System) — Prof. Jaeheung Park"

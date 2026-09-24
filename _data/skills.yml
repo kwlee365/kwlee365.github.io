@@ -1,0 +1,15 @@
+- k: Programming Languages
+  v: Python, C/C++, MATLAB
+- k: Robotics & Control
+  v: >-
+    Humanoid locomotion, whole-body control, model predictive control,
+    control barrier functions, inverse kinematics, state estimation,
+    humanoid motion retargeting
+- k: Robot Software
+  v: ROS, ROS 2, MuJoCo, Pinocchio, Crocoddyl, IsaacLab, IsaacSim, RViz
+- k: Robot Learning
+  v: Reinforcement learning, imitation learning, sim-to-real transfer, actuator network modeling
+- k: Optimization & Numerical Tools
+  v: Quadratic programming, nonlinear optimization, CasADi, qpOASES, qpSWIFT
+- k: Developer Tools
+  v: Git, Linux, CMake, VS Code

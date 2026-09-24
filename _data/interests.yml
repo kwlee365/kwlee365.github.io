@@ -1,0 +1,14 @@
+- topic: Humanoid Robotics
+  detail: Humanoid locomotion, whole-body control, loco-manipulation
+- topic: Motion Retargeting
+  detail: >-
+    Collision-aware motion retargeting, dynamically feasible motion optimization,
+    human-to-humanoid motion transfer
+  link: https://youtu.be/ruav1TcfNyw
+  link_text: video
+- topic: Safety-Critical Control
+  detail: Control barrier functions, constrained reinforcement learning, safe reinforcement learning
+- topic: Robot Learning
+  detail: >-
+    Reinforcement learning for humanoid locomotion, general motion tracking,
+    imitation learning

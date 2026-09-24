@@ -1,0 +1,17 @@
+- when: "2026.05"
+  what: >-
+    Preprint out: *Safety-Critical Whole-Body Control for Humanoid Robots via
+    Input-to-State Safe Control Barrier Functions*
+    ([arXiv:2605.25546](https://arxiv.org/abs/2605.25546)).
+- when: "2026.01"
+  what: >-
+    Our humanoid platform was demonstrated at **CES 2026**
+    ([demo](https://www.youtube.com/watch?v=VUrm83OZvyA)).
+- when: "2025.05"
+  what: >-
+    Paper presented at **ICRA 2025**: humanoid walking stabilization via MPC with
+    step adjustment based on the 3D DCM.
+- when: "2025.03"
+  what: >-
+    Serving as **Head Teaching Assistant** for *Theory and Practice of Humanoid
+    Walking Control* at SNU.
