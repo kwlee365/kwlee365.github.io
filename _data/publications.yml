@@ -2,7 +2,7 @@
 # Grouped on /publications/ by `type`, then by `year`.
 #   type:  Journal | Conference | Preprint
 #   url:   what the title links to (DOI where one exists)
-#   links: extra buttons
+#   links: extra buttons; each takes an optional `icon` (default fas fa-link)
 #   videos: list of {id, start} — click-to-play players, laid out in a row
 
 # ----- Journal -----------------------------------------------------------
@@ -17,6 +17,9 @@
   links:
     - text: arXiv
       url: "https://arxiv.org/abs/2605.25546"
+    - text: Website
+      icon: "fas fa-globe"
+      url: "https://kwlee365.github.io/SafeWBC-Website/"
   videos:
     - id: "CL3e6qg7Mxk"
       start: 1

@@ -31,7 +31,7 @@ permalink: /publications/
     {%- if pub.links %}
     <div class="pill-row">
       {%- for l in pub.links %}
-      <a class="pill" href="{{ l.url | escape }}" target="_blank" rel="noopener"><i class="fas fa-link"></i> {{ l.text }}</a>
+      <a class="pill" href="{{ l.url | escape }}" target="_blank" rel="noopener"><i class="{{ l.icon | default: 'fas fa-link' }}"></i> {{ l.text }}</a>
       {%- endfor %}
       {%- if pub.videos %}
       <span class="pill plain"><i class="fab fa-youtube"></i> {{ pub.videos.size }} video{% if pub.videos.size > 1 %}s{% endif %} below</span>
