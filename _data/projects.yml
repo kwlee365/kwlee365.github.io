@@ -15,6 +15,10 @@
     - >-
       Implemented humanoid locomotion and manipulation controllers, robot physics
       simulation environments, motor communication modules, and state estimation pipelines.
-    - "Participated in the CES 2026 demonstration and technical preparation for humanoid robot deployment."
+    - >-
+      Participated in the
+      <a href="https://kr.aving.net/news/articleView.html?idxno=1807761"
+      target="_blank" rel="noopener">CES 2026 demonstration</a>
+      and technical preparation for humanoid robot deployment.
   videos:
     - id: "VUrm83OZvyA"
