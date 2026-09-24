@@ -6,7 +6,7 @@ title: About
 <h1>About me</h1>
 
 <p class="lead">
-I am a <strong>Ph.D. course</strong> student in the
+I am a <strong>Ph.D. candidate</strong> in the
 <a href="https://gsai.snu.ac.kr/">Intelligence and Information</a> program at
 <strong>Seoul National University</strong>. I work in the
 <a href="https://dyros.snu.ac.kr/">Dynamic Robotic Systems Lab (DYROS)</a> at SNU

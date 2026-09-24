@@ -21,8 +21,8 @@ author:
   email: kwlee365@snu.ac.kr
   github: kwlee365
   linkedin: kwanwoo-lee-16018821a
-  scholar: ""          # add your Google Scholar profile URL when you have one
-  youtube: ""          # add a channel URL if you want the icon shown
+  scholar: "https://scholar.google.com/citations?hl=ko&user=7AwTJLQAAAAJ"
+  youtube: "https://www.youtube.com/@dyros_kwlee"
 
 # --- Build --------------------------------------------------------------
 theme: null            # no external theme; layouts live in _layouts/

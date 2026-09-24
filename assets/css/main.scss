@@ -21,8 +21,8 @@
 
   --serif:   "Libre Baskerville", "Times New Roman", Times, serif;
   --palatino: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  --sans: "Helvetica Neue", "Segoe UI", Helvetica, Arial,
-          "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  --sans: "Open Sans", "Noto Sans KR", "Apple SD Gothic Neo",
+          "Helvetica Neue", Helvetica, Arial, sans-serif;
   --wrap: 1080px;
 }
 
@@ -242,6 +242,8 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 }
 .social-icons a { color: var(--text-muted); transition: color 0.2s ease; }
 .social-icons a:hover { color: var(--accent); }
+/* keep all five icons on one row inside the 220px sidebar */
+.social-icons .fa-stack { font-size: 0.95rem; }
 
 /* ============================== Content ============================ */
 .content { flex: 1; min-width: 0; padding-top: 0.5rem; }

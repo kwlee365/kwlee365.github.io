@@ -27,10 +27,10 @@
     <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fab fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
     {%- endif %}
     {%- if site.author.scholar != "" %}
-    <li><a href="{{ site.author.scholar }}" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i></span></a></li>
+    <li><a href="{{ site.author.scholar | escape }}" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i></span></a></li>
     {%- endif %}
     {%- if site.author.youtube != "" %}
-    <li><a href="{{ site.author.youtube }}" title="YouTube" aria-label="YouTube" target="_blank" rel="noopener"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fab fa-youtube fa-stack-1x fa-inverse"></i></span></a></li>
+    <li><a href="{{ site.author.youtube | escape }}" title="YouTube" aria-label="YouTube" target="_blank" rel="noopener"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fab fa-youtube fa-stack-1x fa-inverse"></i></span></a></li>
     {%- endif %}
   </ul>
 </aside>
