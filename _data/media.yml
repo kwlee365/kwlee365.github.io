@@ -1,21 +1,33 @@
-# Press coverage and broadcast appearances. `url` may be omitted until known.
-- title: "서울공대 웹진"
-  outlet: "Seoul National University College of Engineering"
-  kind: article
-  url: ""            # TODO: add the webzine article URL
+# Press coverage and broadcast appearances, newest first.
+# `date` drives the year headings on /media/, so keep this list sorted.
+# Share tokens (?si=...) are stripped; timestamps (&t=) are kept on purpose.
 
 - title: "민관 협력으로 'K-휴머노이드' 만든다…정부, LG 중심 연합군 가동"
-  outlet: "이투데이 (eToday)"
+  outlet: "이투데이"
   date: "2026.05"
   kind: article
   url: "https://www.etoday.co.kr/news/view/2585573"
 
+- title: "블루로빈, CES 2026 HUMANOID M.AX Alliance 공동관 참가… ‘원격 제어형 다목적 휴머노이드 플랫폼’ 알려!"
+  outlet: "에이빙 (AVING)"
+  date: "2026.01"
+  kind: article
+  url: "https://kr.aving.net/news/articleView.html?idxno=1807761"
+
 - title: "차세대 휴머노이드 기술 전략 논의…정부, 미래융합포럼 개최"
   outlet: "YTN 사이언스"
+  date: "2025.05"
   kind: video
-  url: ""            # TODO: add the YTN Science clip URL
+  url: "https://www.youtube.com/watch?v=dVhuM3gsm6M&t=21s"
+
+- title: "휴머노이드 로봇 보행 기술 및 개발 동향"
+  outlet: "서울공대 웹진 Vol.134"
+  date: "2025.03"
+  kind: article
+  url: "https://webzine-eng.snu.ac.kr/web/vol134/SW134_12_tech2.php"
 
 - title: "[다큐S프라임] 인간과 로봇의 공존…어디까지 발전했나?"
   outlet: "YTN 사이언스"
+  date: "2023.07"
   kind: video
-  url: "https://youtu.be/7cP2FbODMc4?si=jaa_VxD3eXO5dK6s&t=1099"
+  url: "https://youtu.be/7cP2FbODMc4?t=1099"
