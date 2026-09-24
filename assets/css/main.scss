@@ -283,23 +283,6 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .interests li:last-child { border-bottom: 0; }
 .interests .topic { font-weight: 700; color: var(--text); }
 
-/* ---------- News ---------- */
-.news { list-style: none; padding: 0; margin: 0; }
-.news li {
-  display: grid;
-  grid-template-columns: 76px 1fr;
-  gap: 0.8rem;
-  padding: 0.4rem 0;
-  font-size: 0.92rem;
-}
-.news .when {
-  color: var(--accent);
-  font-weight: 600;
-  font-size: 0.82rem;
-  font-variant-numeric: tabular-nums;
-  padding-top: 0.2rem;
-}
-
 /* ---------- Timeline (education / teaching) ---------- */
 .timeline { list-style: none; padding: 0; margin: 0; }
 .timeline > li { padding: 0.85rem 0; border-bottom: 1px solid var(--rule); }
@@ -449,5 +432,4 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
 
   .entry-head { flex-wrap: wrap; gap: 0.15rem; }
   .entry-when { order: -1; width: 100%; }
-  .news li { grid-template-columns: 1fr; gap: 0; }
 }

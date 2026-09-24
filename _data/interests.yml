@@ -1,18 +1,2 @@
 - topic: Humanoid Robotics
   detail: Humanoid locomotion, whole-body control, and loco-manipulation
-
-- topic: Safety-Critical Control
-  detail: >-
-    Dynamic obstacle avoidance for locomotion and whole-body control,
-    and learning-based safety-critical humanoid control
-
-- topic: Optimization
-  detail: >-
-    Nonlinear optimization: sequential quadratic programming (SQP),
-    differential dynamic programming (DDP), and model predictive path
-    integral control (MPPI)
-
-- topic: Robot Learning
-  detail: >-
-    Reinforcement learning for humanoid locomotion, general motion tracking,
-    and imitation learning

@@ -43,17 +43,6 @@ real-world robot deployment.
   {%- endfor %}
 </ul>
 
-<h1>News</h1>
-
-<ul class="news">
-  {%- for item in site.data.news %}
-  <li>
-    <span class="when">{{ item.when }}</span>
-    <span>{{ item.what | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-  </li>
-  {%- endfor %}
-</ul>
-
 <h1>Education</h1>
 
 <ul class="timeline">

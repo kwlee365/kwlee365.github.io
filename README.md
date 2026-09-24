@@ -15,7 +15,6 @@ Almost nothing is hard-coded in HTML. Edit the YAML in `_data/` and the pages re
 
 | File | Feeds |
 |---|---|
-| `_data/news.yml` | News list on the About page (Markdown allowed in `what:`) |
 | `_data/interests.yml` | Research interests on the About page |
 | `_data/education.yml` | Education timeline |
 | `_data/teaching.yml` | Teaching timeline |
