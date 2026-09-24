@@ -309,6 +309,17 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 .entry-note { font-size: 0.86rem; margin-top: 0.3rem; }
 
 /* ---------- Cards (publications & projects) ---------- */
+.type-head {
+  font-family: var(--sans);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent-light);
+  padding-bottom: 0.3rem;
+  margin: 2.6rem 0 0.4rem;
+}
+.type-head:first-of-type { margin-top: 1.4rem; }
+
 .year-head {
   font-family: var(--sans);
   font-size: 1.1rem;
@@ -316,7 +327,7 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
   color: var(--accent);
   border-left: 4px solid var(--accent);
   padding-left: 0.7rem;
-  margin: 2rem 0 0.8rem;
+  margin: 1.5rem 0 0.7rem;
 }
 
 .card-list { list-style: none; margin: 0 0 1.5rem; padding: 0; }

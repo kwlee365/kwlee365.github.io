@@ -1,31 +1,15 @@
-- title: >-
-    Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe
-    Control Barrier Functions
-  authors: "**K. Lee**, S. Park, G. Park, M.-J. Kim, and J. Park"
-  venue: "arXiv preprint arXiv:2605.25546"
-  year: 2026
-  type: Preprint
-  links:
-    - text: arXiv
-      url: https://arxiv.org/abs/2605.25546
+# Mirrors the Google Scholar profile (7AwTJLQAAAAJ).
+# Grouped on /publications/ by `type` first, then by `year`.
+# type: Journal | Conference | Preprint
 
+# ----- Journal -----------------------------------------------------------
 - title: >-
     A Model Predictive Capture Point Control Framework for Robust Humanoid Balancing
     via Ankle, Hip, and Stepping Strategies
   authors: "M.-J. Kim, D. Lim, G. Park, **K. Lee**, and J. Park"
-  venue: "IEEE Transactions on Robotics"
+  venue: "IEEE Transactions on Robotics, vol. 41, pp. 3297–3316"
   year: 2025
   type: Journal
-
-- title: >-
-    Humanoid Walking Stabilization via Model Predictive Control with Step Adjustment
-    Based on the 3D Divergent Component of Motion
-  authors: "G. Park, M.-J. Kim, **K. Lee**, and J. Park"
-  venue: >-
-    Proceedings of the IEEE International Conference on Robotics and Automation (ICRA),
-    pp. 14707–14713
-  year: 2025
-  type: Conference
 
 - title: >-
     Real-Time Whole-Body Model Predictive Control for Versatile 3D Bipedal Locomotion
@@ -34,27 +18,6 @@
   venue: "IEEE Access"
   year: 2025
   type: Journal
-
-- title: >-
-    Phase-based Nonlinear Model Predictive Control for Humanoid Walking Stabilization
-    with Single and Double Support Time Adjustments
-  authors: "**K. Lee**, G. Park, M.-J. Kim, and J. Park"
-  venue: "arXiv preprint arXiv:2506.03856"
-  year: 2025
-  type: Preprint
-  links:
-    - text: arXiv
-      url: https://arxiv.org/abs/2506.03856
-
-- title: >-
-    Balance Control of Humanoid Robots Using Control Barrier Functions for
-    Self-Collision Avoidance and Centroidal Angular Momentum
-  authors: "S. Park, **K. Lee**, and J. Park"
-  venue: >-
-    Proceedings of the Institute of Control, Robotics and Systems Conference,
-    pp. 259–260
-  year: 2025
-  type: Conference
 
 - title: "Advances in Humanoid Robot Walking Technologies: A Review"
   authors: >-
@@ -69,3 +32,53 @@
   venue: "The Journal of Korea Robotics Society, vol. 19, no. 1, pp. 31–38"
   year: 2024
   type: Journal
+
+# ----- Conference --------------------------------------------------------
+- title: >-
+    Humanoid Walking Stabilization via Model Predictive Control with Step Adjustment
+    Based on the 3D Divergent Component of Motion
+  authors: "G. Park, M.-J. Kim, **K. Lee**, and J. Park"
+  venue: >-
+    IEEE International Conference on Robotics and Automation (ICRA), pp. 14707–14713
+  year: 2025
+  type: Conference
+
+- title: >-
+    Balance Control of Humanoid Robots Using Control Barrier Functions for
+    Self-Collision Avoidance and Centroidal Angular Momentum
+  authors: "S. Park, **K. Lee**, and J. Park"
+  venue: >-
+    Institute of Control, Robotics and Systems (ICROS) Annual Conference, pp. 259–260
+  year: 2025
+  type: Conference
+
+# ----- Preprint ----------------------------------------------------------
+- title: >-
+    Safety-Critical Whole-Body Control for Humanoid Robots via Input-to-State Safe
+    Control Barrier Functions
+  authors: "**K. Lee**, S. Park, G. Park, M.-J. Kim, and J. Park"
+  venue: "arXiv preprint arXiv:2605.25546"
+  year: 2026
+  type: Preprint
+  links:
+    - text: arXiv
+      url: https://arxiv.org/abs/2605.25546
+
+- title: >-
+    Humanoid Walking Stabilization via Full Stepping Strategy based on
+    Three-Dimensional Divergent Component of Motion
+  authors: "G. Park, **K. Lee**, S. Park, J. R. Cha, and J. Park"
+  venue: "Under review"     # Scholar lists no venue or year for this one
+  year: 2026
+  type: Preprint
+
+- title: >-
+    Phase-based Nonlinear Model Predictive Control for Humanoid Walking Stabilization
+    with Single and Double Support Time Adjustments
+  authors: "**K. Lee**, G. Park, M.-J. Kim, and J. Park"
+  venue: "arXiv preprint arXiv:2506.03856"
+  year: 2025
+  type: Preprint
+  links:
+    - text: arXiv
+      url: https://arxiv.org/abs/2506.03856
