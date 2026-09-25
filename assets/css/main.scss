@@ -397,7 +397,11 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
 /* Every player is the same fixed size; the row scrolls sideways rather than
    shrinking them to fit. */
 .video-row {
+  /* one height for the row; each player derives its width from its shape */
+  --player-w: min(620px, 86vw);
+  --player-h: calc(var(--player-w) * 9 / 16);
   display: flex;
+  align-items: flex-start;
   gap: 0.9rem;
   margin-top: 0.9rem;
   overflow-x: auto;
@@ -416,7 +420,7 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
 .video {
   position: relative;
   flex: 0 0 auto;
-  width: min(620px, 86vw);
+  width: var(--player-w);
   scroll-snap-align: start;
   aspect-ratio: 16 / 9;
   border: 1px solid var(--rule);
@@ -433,6 +437,8 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
   transition: opacity 0.2s ease;
 }
 .video:hover img { opacity: 0.82; }
+/* a Short is 9:16, sized so it stands exactly as tall as its neighbours */
+.video.portrait { aspect-ratio: 9 / 16; width: calc(var(--player-h) * 9 / 16); }
 .video iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 .video-play {

@@ -1,4 +1,5 @@
-# Projects shown on /projects/. `videos` embeds click-to-play players,
+# Projects shown on /projects/. `videos` embeds click-to-play players
+# ({id, start, portrait} — set portrait: true for a vertical Short),
 # the same one the publications page uses.
 # Earlier entries are in git history: `git show 4b6d6b4:_data/projects.yml`
 
@@ -20,3 +21,9 @@
       and technical preparation for humanoid robot deployment.
   videos:
     - id: "VUrm83OZvyA"
+    - id: "8VVgKYkBD7g"
+    - id: "lOXWBOkLSI0"
+    - id: "Qmk3Cl2wM6s"
+      portrait: true
+    - id: "LXr4KC5hbOU"
+      portrait: true
