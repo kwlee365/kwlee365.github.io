@@ -5,6 +5,21 @@
 # Earlier entries are in git history: `git show 4b6d6b4:_data/projects.yml`
 
 - title: >-
+    <a class="ilink" href="https://sites.google.com/view/kist-arc/home/?pli=1&amp;authuser=0"
+    target="_blank" rel="noopener">KIST</a> Custom Humanoid Development
+  when: "Sep. 2026 – Present"
+  items:
+    - >-
+      Bridging the sim-to-real gap between a custom humanoid robot platform and
+      its physics-based simulator.
+    - >-
+      Conducting research on reinforcement-learning-based locomotion control and
+      general motion tracking.
+  videos:
+    - id: "2OS071IbV0g"
+      start: 2472
+
+- title: >-
     <a class="ilink" href="https://dyros.snu.ac.kr/" target="_blank"
     rel="noopener">SNU</a> &amp;
     <a class="ilink" href="https://www.bluerobin.co.kr/EN/index.php"
