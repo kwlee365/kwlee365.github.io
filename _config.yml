@@ -17,7 +17,7 @@ author:
     - Ph.D. Student in Robotics
     - Seoul National University
     - kwlee365 (at) snu.ac.kr
-  cv: ""              # CV is not published in this repo; set a URL here to show the button
+  cv: /assets/CV_Kwanwoo_Lee.pdf
   email: kwlee365@snu.ac.kr
   email_alt: kwlee365@kist.re.kr
   github: kwlee365
@@ -39,7 +39,7 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
-  - assets/CV_kwlee.pdf        # kept locally, never built or published
+  - assets/CV_kwlee.pdf        # the original, with a phone number; never published
   - assets/images/kwlee.png    # 3 MB source image; the site uses the cropped kwlee.jpg
   - Gemfile
   - Gemfile.lock

@@ -5,7 +5,8 @@ _site/
 vendor/
 .bundle/
 
-# CV is kept locally only, not published to the repo
+# The original CV carries a phone number and stays local;
+# assets/CV_Kwanwoo_Lee.pdf is the published copy with it removed.
 assets/CV_kwlee.pdf
 
 .DS_Store
