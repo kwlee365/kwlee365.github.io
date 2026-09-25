@@ -75,6 +75,16 @@ real-world robot deployment.
   {%- endfor %}
 </ul>
 
+<h1>Languages</h1>
+
+<ul class="interests">
+  {%- for l in site.data.languages %}
+  <li>
+    <span class="topic">{{ l.lang }}</span> &mdash; {{ l.level }}{% if l.note %} <span class="lang-score">{{ l.note }}</span>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
+
 <h1>Contact</h1>
 
 <p>
