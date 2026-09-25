@@ -80,7 +80,7 @@ real-world robot deployment.
 <ul class="interests">
   {%- for l in site.data.languages %}
   <li>
-    <span class="topic">{{ l.lang }}</span> &mdash; {{ l.level }}{% if l.note %} <span class="lang-score">{{ l.note }}</span>{% endif %}
+    <span class="topic">{{ l.lang }}</span> &mdash; {{ l.level }}
   </li>
   {%- endfor %}
 </ul>
