@@ -475,19 +475,6 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
   margin-left: 0.25rem;
 }
 
-/* ---------- Score report ---------- */
-.score-proof {
-  display: block;
-  margin-top: 0.9rem;
-  max-width: 620px;
-  border: 1px solid var(--rule);
-  border-radius: 8px;
-  overflow: hidden;
-  line-height: 0;
-}
-.score-proof img { width: 100%; height: auto; transition: opacity 0.2s ease; }
-.score-proof:hover img { opacity: 0.88; }
-
 /* ---------- Photo gallery ---------- */
 /* Shots come in both orientations, so fix the height and let width follow. */
 .gallery {

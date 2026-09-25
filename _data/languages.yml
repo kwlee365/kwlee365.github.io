@@ -1,13 +1,8 @@
 # Shown on the About page under Teaching.
-# `proof` attaches a score report below the list.
-entries:
-  - lang: Korean
-    level: Native
+# The TOEFL score report itself lives in the CV, not here.
+- lang: Korean
+  level: Native
 
-  - lang: English
-    level: "TOEFL iBT 100 / 120"
-    note: "CEFR C1"
-
-proof:
-  src: "/assets/images/eng/toefl_score.png"
-  alt: "TOEFL iBT score report: overall 100 of 120, CEFR C1; reading 5.0, listening 5.0, writing 4.0, speaking 5.0 of 6"
+- lang: English
+  level: "TOEFL iBT 100 / 120"
+  note: "CEFR C1"
