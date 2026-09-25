@@ -26,6 +26,21 @@
     - id: "ldsaWZNpEhk"
 
 - title: >-
+    Contact Force Estimation-Guided Reinforcement Learning Framework for
+    Compliant Humanoid Bipedal Walking
+  authors: >-
+    Y. Jo, **K. Lee**, G. Park, S. Lim, J. Shin, H. Choi, S. Park, J. Park, and S. M. Hur
+  venue: "The Journal of Korea Robotics Society, vol. 21, no. 3, pp. 269–282"
+  year: 2026
+  type: Journal
+  url: "https://doi.org/10.7746/jkros.2026.21.3.269"
+  links:
+    - text: DOI
+      url: "https://doi.org/10.7746/jkros.2026.21.3.269"
+  videos:
+    - id: "VUrm83OZvyA"
+
+- title: >-
     A Model Predictive Capture Point Control Framework for Robust Humanoid Balancing
     via Ankle, Hip, and Stepping Strategies
   authors: "M.-J. Kim, D. Lim, G. Park, **K. Lee**, and J. Park"
