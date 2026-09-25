@@ -1,6 +1,8 @@
 {%- comment -%}
 Click-to-play players. Pass `videos` (list of {id, start, portrait}) and a `label`.
 Only the thumbnail loads up front; default.html swaps in the iframe on click.
+The label may carry markup and entities, so strip tags and escape only what
+is not already escaped, or a screen reader reads the raw HTML aloud.
 Portrait entries are YouTube Shorts: they take a 9:16 frame of the same height as
 the landscape ones, and oardefault.jpg, which is the uncropped vertical still
 (hqdefault would pad it into 4:3 and lose the sides to the crop).
@@ -9,7 +11,7 @@ the landscape ones, and oardefault.jpg, which is the uncropped vertical still
   {%- for v in include.videos %}
   <div class="video{% if v.portrait %} portrait{% endif %}" data-yt="{{ v.id }}"
        data-start="{{ v.start | default: 0 }}"
-       role="button" tabindex="0" aria-label="Play video: {{ include.label | strip | escape }}">
+       role="button" tabindex="0" aria-label="Play video: {{ include.label | strip_html | strip | escape_once }}">
     <img src="https://i.ytimg.com/vi/{{ v.id }}/{% if v.portrait %}oardefault{% else %}hqdefault{% endif %}.jpg"
          alt="" loading="lazy" decoding="async">
     <span class="video-play"><i class="fas fa-play"></i></span>
