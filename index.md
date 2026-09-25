@@ -78,12 +78,19 @@ real-world robot deployment.
 <h1>Languages</h1>
 
 <ul class="interests">
-  {%- for l in site.data.languages %}
+  {%- for l in site.data.languages.entries %}
   <li>
     <span class="topic">{{ l.lang }}</span> &mdash; {{ l.level }}{% if l.note %} <span class="lang-score">{{ l.note }}</span>{% endif %}
   </li>
   {%- endfor %}
 </ul>
+
+{%- assign proof = site.data.languages.proof %}
+{%- if proof %}
+<a class="score-proof" href="{{ proof.src | relative_url }}" target="_blank" rel="noopener">
+  <img src="{{ proof.src | relative_url }}" alt="{{ proof.alt }}" loading="lazy" decoding="async">
+</a>
+{%- endif %}
 
 <h1>Contact</h1>
 

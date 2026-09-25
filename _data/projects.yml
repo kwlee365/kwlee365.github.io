@@ -58,8 +58,8 @@
   when: "Jun 15 – 29, 2026"
   items:
     - >-
-      Two-week research visit to the Stanford Robotics Lab, led by
-      Prof. Oussama Khatib, under the STEAM Research Project.
+      Two-week research visit to the Stanford Robotics Lab under the
+      STEAM Research Project.
   images:
     - src: "/assets/images/stanford/01-lab-arm.jpg"
       alt: "Working with a manipulator in the lab"
