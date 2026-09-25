@@ -80,6 +80,5 @@ real-world robot deployment.
 <p>
 Email <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> (SNU)
 or <a href="mailto:{{ site.author.email_alt }}">{{ site.author.email_alt }}</a> (KIST) —
-happy to talk about humanoid control, motion retargeting, or safe RL.
-A full CV is available on request.
+happy to talk about humanoid robots.
 </p>
