@@ -463,6 +463,45 @@ a.pill:hover { background: var(--accent); color: #fff; border-color: var(--accen
 .video:hover .video-play i { background: #e0342b; transform: scale(1.06); }
 .video:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+/* ---------- Photo gallery ---------- */
+/* Shots come in both orientations, so fix the height and let width follow. */
+.gallery {
+  --shot-h: 300px;
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 0.8rem;
+  overflow-x: auto;
+  padding-bottom: 0.55rem;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
+}
+.gallery::-webkit-scrollbar { height: 9px; }
+.gallery::-webkit-scrollbar-track { background: var(--bg-soft); border-radius: 5px; }
+.gallery::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 5px; }
+.gallery::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+.gallery a {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--rule);
+  line-height: 0;
+}
+.gallery img {
+  height: var(--shot-h);
+  width: auto;
+  max-width: none;
+  object-fit: cover;
+  transition: opacity 0.2s ease;
+}
+.gallery a:hover img { opacity: 0.85; }
+
+@media (max-width: 700px) {
+  .gallery { --shot-h: 210px; }
+}
+
 /* ---------- Notes list ---------- */
 .note-list { list-style: none; padding: 0; margin: 0; }
 .note-list li { padding: 0.8rem 0; border-bottom: 1px solid var(--rule); }

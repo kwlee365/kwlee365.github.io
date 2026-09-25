@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle: Funded research projects I have contributed to, most recent first.
+subtitle: Research projects and demonstrations I have contributed to, most recent first.
 permalink: /projects/
 ---
 
@@ -20,12 +20,15 @@ permalink: /projects/
     {%- if p.links %}
     <div class="pill-row">
       {%- for l in p.links %}
-      <a class="pill" href="{{ l.url | escape }}" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> {{ l.text }}</a>
+      <a class="pill" href="{{ l.url | escape }}" target="_blank" rel="noopener"><i class="{{ l.icon | default: 'fas fa-link' }}"></i> {{ l.text }}</a>
       {%- endfor %}
     </div>
     {%- endif %}
     {%- if p.videos %}
-    {% include videos.html videos=p.videos label=p.title_ko %}
+    {% include videos.html videos=p.videos label=p.title %}
+    {%- endif %}
+    {%- if p.images %}
+    {% include gallery.html images=p.images %}
     {%- endif %}
   </li>
 {%- endfor %}

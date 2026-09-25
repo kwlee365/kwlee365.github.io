@@ -1,5 +1,6 @@
 # Projects shown on /projects/. `videos` embeds click-to-play players
-# ({id, start, portrait} — set portrait: true for a vertical Short),
+# ({id, start, portrait} — set portrait: true for a vertical Short);
+# `images` is a gallery of {src, alt}, shown at a single height;
 # the same one the publications page uses.
 # Earlier entries are in git history: `git show 4b6d6b4:_data/projects.yml`
 
@@ -14,11 +15,6 @@
     - >-
       Implemented humanoid locomotion and manipulation controllers, robot physics
       simulation environments, motor communication modules, and state estimation pipelines.
-    - >-
-      Participated in the
-      <a href="https://kr.aving.net/news/articleView.html?idxno=1807761"
-      target="_blank" rel="noopener">CES 2026 demonstration</a>
-      and technical preparation for humanoid robot deployment.
   videos:
     - id: "VUrm83OZvyA"
     - id: "8VVgKYkBD7g"
@@ -27,3 +23,31 @@
       portrait: true
     - id: "LXr4KC5hbOU"
       portrait: true
+
+- title: >-
+    CES 2026 &mdash; HUMANOID M.AX Alliance Joint Booth
+  when: "Jan 6 – 9, 2026"
+  items:
+    - >-
+      Prepared and ran the live humanoid demonstration on
+      <a href="https://www.bluerobin.co.kr/EN/index.php" target="_blank"
+      rel="noopener">BlueRobin</a>'s stand, showing the P-73 teleoperated
+      multi-purpose humanoid platform.
+    - "Handled the on-site technical setup: controller deployment, motor communication, and daily operation of the robot through the show."
+  links:
+    - text: Press
+      icon: "fas fa-newspaper"
+      url: "https://kr.aving.net/news/articleView.html?idxno=1807761"
+  videos:
+    - id: "WV9IMeJSClo"
+  images:
+    - src: "/assets/images/ces2026/1-booth.jpg"
+      alt: "The P-73 humanoid on the BlueRobin stand"
+    - src: "/assets/images/ces2026/2-team.jpg"
+      alt: "The team at the booth with the robot"
+    - src: "/assets/images/ces2026/3-robots.jpg"
+      alt: "Humanoid robots on the joint booth floor"
+    - src: "/assets/images/ces2026/4-badge.jpg"
+      alt: "CES 2026 exhibitor badge"
+    - src: "/assets/images/ces2026/5-vegas.jpg"
+      alt: "Off the show floor in Las Vegas"
