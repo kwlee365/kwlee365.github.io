@@ -26,7 +26,7 @@ real-world robot deployment.
 <ul class="interests">
   {%- for a in site.data.affiliations %}
   <li>
-    <span class="topic"><a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.lab }}</a></span>
+    <span class="topic"><a href="{{ a.url | escape }}" target="_blank" rel="noopener">{{ a.lab }}</a></span>
     &mdash; {{ a.org }}{% if a.note %}. {{ a.note }}{% endif %}
   </li>
   {%- endfor %}

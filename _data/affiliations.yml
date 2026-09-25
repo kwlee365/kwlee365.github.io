@@ -1,8 +1,14 @@
+# `note` may carry markup; the ampersands in the URLs are escaped for HTML.
 - lab: Dynamic Robotic Systems Lab (DYROS)
   org: Seoul National University
   url: https://dyros.snu.ac.kr/
-  note: Advised by Prof. Jaeheung Park
+  note: >-
+    Advised by <a href="https://scholar.google.com/citations?user=XtKmE78AAAAJ&amp;hl=ko&amp;oi=ao"
+    target="_blank" rel="noopener">Prof. Jaeheung Park</a>
+
 - lab: Advanced Robot Control Lab (ARC)
   org: Korea Institute of Science and Technology (KIST)
   url: https://sites.google.com/view/kist-arc/home/?pli=1&authuser=0
-  note: Advised by Dr. Yisoo Lee
+  note: >-
+    Advised by <a href="https://scholar.google.com/citations?user=g3tJiEoAAAAJ&amp;hl=ko&amp;oi=ao"
+    target="_blank" rel="noopener">Dr. Yisoo Lee</a>
