@@ -105,6 +105,33 @@
       url: "https://dyros.snu.ac.kr/wp-content/uploads/2026/08/IROS26_gyeongjaePARK.pdf"
 
 - title: >-
+    Full-body Model Predictive Control Based on Swing Leg Motion Guidance for
+    Robust Humanoid Robot Locomotion
+  authors: "S. Lim, **K. Lee**, and J. Park"
+  venue: >-
+    Institute of Control, Robotics and Systems (ICROS) Annual Conference,
+    pp. 580–581
+  year: 2026
+  type: Conference
+  url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12952414"
+  links:
+    - text: DBpia
+      url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12952414"
+
+- title: >-
+    Actuator Network Model for Parallel Four-bar Linkage Driven Bipedal Robot
+  authors: "S. Lim, **K. Lee**, Y. Cho, and J. Park"
+  venue: >-
+    Institute of Control, Robotics and Systems (ICROS) Annual Conference,
+    pp. 567–568
+  year: 2026
+  type: Conference
+  url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12952409"
+  links:
+    - text: DBpia
+      url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12952409"
+
+- title: >-
     Humanoid Walking Stabilization via Model Predictive Control with Step Adjustment
     Based on the 3D Divergent Component of Motion
   authors: "G. Park, M.-J. Kim, **K. Lee**, and J. Park"
