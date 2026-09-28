@@ -160,6 +160,21 @@
 
 # ----- Preprint ----------------------------------------------------------
 - title: >-
+    DODGER: Safety-Guided Reinforcement Learning for Robot Navigation Among
+    Dynamic Obstacles
+  authors: >-
+    S. Park, **K. Lee**,
+    <a href="https://scholar.google.com/citations?user=H2PE_p4AAAAJ&amp;hl=ko&amp;oi=ao"
+    target="_blank" rel="noopener">T. Kim</a>, S. Lim, and
+    <a href="https://scholar.google.com/citations?hl=ko&amp;user=g3tJiEoAAAAJ"
+    target="_blank" rel="noopener">Y. Lee</a>
+  venue: "Under review"
+  year: 2026
+  type: Preprint
+  videos:
+    - id: "2c8UtzkYrzc"
+
+- title: >-
     Phase-based Nonlinear Model Predictive Control for Humanoid Walking Stabilization
     with Single and Double Support Time Adjustments
   authors: "**K. Lee**, G. Park, M.-J. Kim, and J. Park"
