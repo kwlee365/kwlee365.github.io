@@ -168,9 +168,16 @@
     target="_blank" rel="noopener">T. Kim</a>, S. Lim, and
     <a href="https://scholar.google.com/citations?hl=ko&amp;user=g3tJiEoAAAAJ"
     target="_blank" rel="noopener">Y. Lee</a>
-  venue: "Under review"
+  venue: "arXiv preprint arXiv:2609.38873"
   year: 2026
   type: Preprint
+  url: "https://arxiv.org/abs/2609.38873"
+  links:
+    - text: arXiv
+      url: "https://arxiv.org/abs/2609.38873"
+    - text: Website
+      icon: "fas fa-globe"
+      url: "https://psh0823.github.io/dodger-homepage/"
   videos:
     - id: "2c8UtzkYrzc"
 
