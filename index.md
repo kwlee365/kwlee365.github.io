@@ -88,7 +88,7 @@ real-world robot deployment.
 <h1>Contact</h1>
 
 <p>
-Email <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> (SNU)
-or <a href="mailto:{{ site.author.email_alt }}">{{ site.author.email_alt }}</a> (KIST) —
+Email {{ site.author.email | replace: '@', ' (at) ' }} (SNU)
+or {{ site.author.email_alt | replace: '@', ' (at) ' }} (KIST) &mdash;
 happy to talk about humanoid robots.
 </p>

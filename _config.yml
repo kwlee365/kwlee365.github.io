@@ -17,7 +17,7 @@ author:
     - Ph.D. Student in Robotics
     - Seoul National University
     - kwlee365 (at) snu.ac.kr
-  cv: /assets/CV_Kwanwoo_Lee.pdf
+  cv: ""              # no CV published; put a URL here to bring the button back
   email: kwlee365@snu.ac.kr
   email_alt: kwlee365@kist.re.kr
   github: kwlee365
